@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1923/problem/A" target="_blank" rel="noopener noreferrer">1923A — Moving Chips</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1923A](https://codeforces.com/contest/1923/problem/A) |
+
+## Topics
+`greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Moving Chips</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>There is a ribbon divided into $$$n$$$ cells, numbered from $$$1$$$ to $$$n$$$ from left to right. Each cell either contains a chip or is free.</p><p>You can perform the following operation any number of times (possibly zero): choose a chip and move it to the <span class="tex-font-style-bf">closest free cell to the left</span>. You can choose any chip that you want, provided that there is at least one free cell to the left of it. When you move the chip, the cell where it was before the operation becomes free.</p><p>Your goal is to move the chips in such a way that <span class="tex-font-style-bf">they form a single block, without any free cells between them</span>. What is the minimum number of operations you have to perform?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases.</p><p>Each test case consists of two lines:</p><ul> <li> the first line contains one integer $$$n$$$ ($$$2 \le n \le 50$$$) — the number of cells; </li><li> the second line contains $$$n$$$ integers $$$a_1, a_2, \dots, a_n$$$ ($$$0 \le a_i \le 1$$$); $$$a_i = 0$$$ means that the $$$i$$$-th cell is free; $$$a_i = 1$$$ means that the $$$i$$$-th cell contains a chip. </li></ul><p>Additional constraint on the input: in each test case, at least one cell contains a chip.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print one integer — the minimum number of operations you have to perform so that all chips form a single block without any free cells between them.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009534757457637686" id="id007509079006567883" class="input-output-copier">Copy</div></div><pre id="id009534757457637686"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">8</div><div class="test-example-line test-example-line-odd test-example-line-1">0 1 1 1 0 1 1 0</div><div class="test-example-line test-example-line-even test-example-line-2">6</div><div class="test-example-line test-example-line-even test-example-line-2">0 1 0 0 0 0</div><div class="test-example-line test-example-line-odd test-example-line-3">6</div><div class="test-example-line test-example-line-odd test-example-line-3">1 1 1 1 1 1</div><div class="test-example-line test-example-line-even test-example-line-4">5</div><div class="test-example-line test-example-line-even test-example-line-4">1 0 1 0 1</div><div class="test-example-line test-example-line-odd test-example-line-5">9</div><div class="test-example-line test-example-line-odd test-example-line-5">0 1 1 0 0 0 1 1 0</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00027090745344302558" id="id003164719884985536" class="input-output-copier">Copy</div></div><pre id="id00027090745344302558">1
+0
+0
+2
+3
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example, you can perform the operation on the chip in the $$$7$$$-th cell. The closest free cell to the left is the $$$5$$$-th cell, so it moves there. After that, all chips form a single block.</p><p>In the second example, all chips are already in a single block. Same for the third example.</p></div>

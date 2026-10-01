@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1856/problem/A" target="_blank" rel="noopener noreferrer">1856A — Tales of a Sort</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1856A](https://codeforces.com/contest/1856/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Tales of a Sort</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Alphen has an array of positive integers $$$a$$$ of length $$$n$$$.</p><p>Alphen can perform the following operation: </p><ul> <li> For <span class="tex-font-style-bf">all</span> $$$i$$$ from $$$1$$$ to $$$n$$$, replace $$$a_i$$$ with $$$\max(0, a_i - 1)$$$. </li></ul><p>Alphen will perform the above operation until $$$a$$$ is sorted, that is $$$a$$$ satisfies $$$a_1 \leq a_2 \leq \ldots \leq a_n$$$. How many operations will Alphen perform? Under the constraints of the problem, it can be proven that Alphen will perform a finite number of operations.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line of input contains a single integer $$$t$$$ ($$$1 \le t \le 500$$$) — the number of test cases. The description of the test cases follows.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$2 \le n \le 50$$$) — the length of the array $$$a$$$.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \dots, a_n$$$ ($$$1 \le a_i \le 10 ^ 9$$$) — the elements of the array $$$a$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the number of operations that Alphen will perform.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00750940885619204" id="id006888646029800561" class="input-output-copier">Copy</div></div><pre id="id00750940885619204"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">3</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 3</div><div class="test-example-line test-example-line-even test-example-line-2">5</div><div class="test-example-line test-example-line-even test-example-line-2">2 1 2 1 2</div><div class="test-example-line test-example-line-odd test-example-line-3">4</div><div class="test-example-line test-example-line-odd test-example-line-3">3 1 5 4</div><div class="test-example-line test-example-line-even test-example-line-4">2</div><div class="test-example-line test-example-line-even test-example-line-4">7 7</div><div class="test-example-line test-example-line-odd test-example-line-5">5</div><div class="test-example-line test-example-line-odd test-example-line-5">4 1 3 2 5</div><div class="test-example-line test-example-line-even test-example-line-6">5</div><div class="test-example-line test-example-line-even test-example-line-6">2 3 1 4 5</div><div class="test-example-line test-example-line-odd test-example-line-7">3</div><div class="test-example-line test-example-line-odd test-example-line-7">1000000000 1 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007165928897833657" id="id009125821857721039" class="input-output-copier">Copy</div></div><pre id="id007165928897833657">0
+2
+5
+0
+4
+3
+1000000000
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, we have $$$a=[1,2,3]$$$. Since $$$a$$$ is already sorted, Alphen will not need to perform any operations. So, the answer is $$$0$$$.</p><p>In the second test case, we have $$$a=[2,1,2,1,2]$$$. Since $$$a$$$ is not initially sorted, Alphen will perform one operation to make $$$a=[1,0,1,0,1]$$$. After performing one operation, $$$a$$$ is still not sorted, so Alphen will perform another operation to make $$$a=[0,0,0,0,0]$$$. Since $$$a$$$ is sorted, Alphen will not perform any other operations. Since Alphen has performed two operations in total, the answer is $$$2$$$.</p></div>

@@ -6,41 +6,41 @@
 
 | Total Problems | Topics |
 |---|---|
-| 644 | 32 |
+| 659 | 32 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (5)
-- [Uncategorized](#uncategorized) (5)
-- [binary search](#binary-search) (60)
-- [bitmasks](#bitmasks) (39)
-- [brute force](#brute-force) (139)
+- [Uncategorized](#uncategorized) (6)
+- [binary search](#binary-search) (61)
+- [bitmasks](#bitmasks) (42)
+- [brute force](#brute-force) (141)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (22)
-- [constructive algorithms](#constructive-algorithms) (133)
+- [constructive algorithms](#constructive-algorithms) (136)
 - [data structures](#data-structures) (44)
-- [dfs and similar](#dfs-and-similar) (16)
+- [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (46)
+- [dp](#dp) (49)
 - [dsu](#dsu) (12)
 - [games](#games) (23)
 - [geometry](#geometry) (17)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (19)
-- [greedy](#greedy) (303)
+- [graphs](#graphs) (20)
+- [greedy](#greedy) (309)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (185)
+- [implementation](#implementation) (189)
 - [interactive](#interactive) (1)
-- [math](#math) (308)
+- [math](#math) (317)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (80)
+- [number theory](#number-theory) (82)
 - [probabilities](#probabilities) (1)
 - [shortest paths](#shortest-paths) (6)
-- [sortings](#sortings) (99)
+- [sortings](#sortings) (100)
 - [string suffix structures](#string-suffix-structures) (1)
-- [strings](#strings) (57)
+- [strings](#strings) (58)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (9)
 - [two pointers](#two-pointers) (43)
@@ -65,6 +65,7 @@
 | 2024C | [Concatenation of Arrays](https://codeforces.com/contest/2024/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2024/C%20-%20Concatenation%20of%20Arrays/solution.cpp) |
 | 2078C | [Breach of Faith](https://codeforces.com/contest/2078/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2078/C%20-%20Breach%20of%20Faith/solution.cpp) |
 | 2102C | [Mex in the Grid](https://codeforces.com/contest/2102/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2102/C%20-%20Mex%20in%20the%20Grid/solution.cpp) |
+| 2139C | [Cake Assignment](https://codeforces.com/contest/2139/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2139/C%20-%20Cake%20Assignment/solution.cpp) |
 | 2166C | [Cyclic Merging](https://codeforces.com/contest/2166/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2166/C%20-%20Cyclic%20Merging/solution.cpp) |
 
 ### binary search
@@ -131,6 +132,7 @@
 | 2114A | [Square Year](https://codeforces.com/contest/2114/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2114/A%20-%20Square%20Year/solution.cpp) |
 | 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### bitmasks
 
@@ -175,6 +177,9 @@
 | 2160C | [Reverse XOR](https://codeforces.com/contest/2160/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2160/C%20-%20Reverse%20XOR/solution.cpp) |
 | 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.cpp) |
 | 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
+| 2179D | [Blackslex and Penguin Civilization](https://codeforces.com/contest/2179/problem/D) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/D%20-%20Blackslex%20and%20Penguin%20Civilization/solution.cpp) |
+| 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
+| 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
 
 ### brute force
 
@@ -308,6 +313,7 @@
 | 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2131E | [Adjacent XOR](https://codeforces.com/contest/2131/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/E%20-%20Adjacent%20XOR/solution.cpp) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
 | 2134C | [Even Larger](https://codeforces.com/contest/2134/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2134/C%20-%20Even%20Larger/solution.cpp) |
 | 2137C | [Maximum Even Sum](https://codeforces.com/contest/2137/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2137/C%20-%20Maximum%20Even%20Sum/solution.cpp) |
@@ -319,6 +325,7 @@
 | 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
 | 2173C | [Kanade's Perfect Multiples](https://codeforces.com/contest/2173/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2173/C%20-%20Kanade's%20Perfect%20Multiples/solution.cpp) |
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.cpp) |
+| 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
 
 ### chinese remainder theorem
 
@@ -490,6 +497,9 @@
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2173C | [Kanade's Perfect Multiples](https://codeforces.com/contest/2173/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2173/C%20-%20Kanade's%20Perfect%20Multiples/solution.cpp) |
 | 2175B | [XOR Array](https://codeforces.com/contest/2175/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2175/B%20-%20XOR%20Array/solution.cpp) |
+| 2179D | [Blackslex and Penguin Civilization](https://codeforces.com/contest/2179/problem/D) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/D%20-%20Blackslex%20and%20Penguin%20Civilization/solution.cpp) |
+| 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
+| 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
 
 ### data structures
 
@@ -560,6 +570,7 @@
 | 2033E | [Sakurako, Kosuke, and the Permutation](https://codeforces.com/contest/2033/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2033/E%20-%20Sakurako%2C%20Kosuke%2C%20and%20the%20Permutation/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### divide and conquer
 
@@ -617,6 +628,9 @@
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
 | 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
 | 2173B | [Niko's Tactical Cards](https://codeforces.com/contest/2173/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2173/B%20-%20Niko's%20Tactical%20Cards/solution.cpp) |
+| 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
+| 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### dsu
 
@@ -715,6 +729,7 @@
 | 2108C | [Neo's Escape](https://codeforces.com/contest/2108/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2108/C%20-%20Neo's%20Escape/solution.cpp) |
 | 2131D | [Arboris Contractio](https://codeforces.com/contest/2131/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/D%20-%20Arboris%20Contractio/solution.cpp) |
 | 2155B | [Abraham's Great Escape](https://codeforces.com/contest/2155/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2155/B%20-%20Abraham's%20Great%20Escape/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### greedy
 
@@ -993,6 +1008,7 @@
 | 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
 | 2131D | [Arboris Contractio](https://codeforces.com/contest/2131/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/D%20-%20Arboris%20Contractio/solution.cpp) |
 | 2131E | [Adjacent XOR](https://codeforces.com/contest/2131/problem/E) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/E%20-%20Adjacent%20XOR/solution.cpp) |
+| 2132C1 | [The Cunning Seller (easy version)](https://codeforces.com/contest/2132/problem/C1) | 1000 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2132/C1%20-%20The%20Cunning%20Seller%20(easy%20version)/solution.cpp) |
 | 2133B | [Villagers](https://codeforces.com/contest/2133/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2133/B%20-%20Villagers/solution.cpp) |
 | 2134C | [Even Larger](https://codeforces.com/contest/2134/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2134/C%20-%20Even%20Larger/solution.cpp) |
 | 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
@@ -1022,7 +1038,12 @@
 | 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
 | 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
 | 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
+| 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
+| 2179D | [Blackslex and Penguin Civilization](https://codeforces.com/contest/2179/problem/D) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/D%20-%20Blackslex%20and%20Penguin%20Civilization/solution.cpp) |
 | 2180B | [Ashmal](https://codeforces.com/contest/2180/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/B%20-%20Ashmal/solution.cpp) |
+| 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
+| 2189A | [Table with Numbers](https://codeforces.com/contest/2189/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2189/A%20-%20Table%20with%20Numbers/solution.cpp) |
+| 2193B | [Reverse a Permutation](https://codeforces.com/contest/2193/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2193/B%20-%20Reverse%20a%20Permutation/solution.cpp) |
 
 ### hashing
 
@@ -1204,6 +1225,7 @@
 | 2121D | [1709](https://codeforces.com/contest/2121/problem/D) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2121/D%20-%201709/solution.cpp) |
 | 2125A | [Difficult Contest](https://codeforces.com/contest/2125/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2125/A%20-%20Difficult%20Contest/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
 | 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
 | 2134C | [Even Larger](https://codeforces.com/contest/2134/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2134/C%20-%20Even%20Larger/solution.cpp) |
@@ -1221,6 +1243,9 @@
 | 2173A | [Sleeping Through Classes](https://codeforces.com/contest/2173/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2173/A%20-%20Sleeping%20Through%20Classes/solution.cpp) |
 | 2175A | [Little Fairy's Painting](https://codeforces.com/contest/2175/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2175/A%20-%20Little%20Fairy's%20Painting/solution.cpp) |
 | 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
+| 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
+| 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
+| 2189A | [Table with Numbers](https://codeforces.com/contest/2189/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2189/A%20-%20Table%20with%20Numbers/solution.cpp) |
 
 ### interactive
 
@@ -1513,6 +1538,8 @@
 | 2131A | [Lever](https://codeforces.com/contest/2131/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/A%20-%20Lever/solution.cpp) |
 | 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
 | 2131C | [Make it Equal](https://codeforces.com/contest/2131/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2131/C%20-%20Make%20it%20Equal/solution.cpp) |
+| 2132B | [The Secret Number](https://codeforces.com/contest/2132/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2132/B%20-%20The%20Secret%20Number/solution.cpp) |
+| 2132C1 | [The Cunning Seller (easy version)](https://codeforces.com/contest/2132/problem/C1) | 1000 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2132/C1%20-%20The%20Cunning%20Seller%20(easy%20version)/solution.cpp) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
 | 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
 | 2134B | [Add 0 or K](https://codeforces.com/contest/2134/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2134/B%20-%20Add%200%20or%20K/solution.cpp) |
@@ -1540,6 +1567,13 @@
 | 2175B | [XOR Array](https://codeforces.com/contest/2175/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2175/B%20-%20XOR%20Array/solution.cpp) |
 | 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
+| 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
+| 2179D | [Blackslex and Penguin Civilization](https://codeforces.com/contest/2179/problem/D) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/D%20-%20Blackslex%20and%20Penguin%20Civilization/solution.cpp) |
+| 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.cpp) |
+| 2184B | [Hourglass](https://codeforces.com/contest/2184/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/B%20-%20Hourglass/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
+| 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
+| 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
 
 ### matrices
 
@@ -1630,7 +1664,9 @@
 | 2140B | [Another Divisibility Problem](https://codeforces.com/contest/2140/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2140/B%20-%20Another%20Divisibility%20Problem/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2173C | [Kanade's Perfect Multiples](https://codeforces.com/contest/2173/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2173/C%20-%20Kanade's%20Perfect%20Multiples/solution.cpp) |
+| 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.cpp) |
+| 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
 
 ### probabilities
 
@@ -1752,6 +1788,7 @@
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
+| 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 
 ### string suffix structures
 
@@ -1814,6 +1851,7 @@
 | 2110B | [Down with Brackets](https://codeforces.com/contest/2110/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2110/B%20-%20Down%20with%20Brackets/solution.cpp) |
 | 2121B | [Above the Clouds](https://codeforces.com/contest/2121/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2121/B%20-%20Above%20the%20Clouds/solution.cpp) |
 | 2125A | [Difficult Contest](https://codeforces.com/contest/2125/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2125/A%20-%20Difficult%20Contest/solution.cpp) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
 | 2149D | [A and B](https://codeforces.com/contest/2149/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2149/D%20-%20A%20and%20B/solution.cpp) |
 | 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2166/A%20-%20Same%20Difference/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/P-Karthikeya512/Cf_solutions/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |

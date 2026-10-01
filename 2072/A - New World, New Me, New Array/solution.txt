@@ -1,0 +1,11 @@
+t = int(input())
+for i in range(t):
+    n,k,p = map(int,input().split())
+    pos,neg  = n*p,-n*p
+    if k > pos or k < neg :
+        print(-1)
+    else:
+        sum = abs(k)//p
+        if abs(k)%p != 0 :
+            sum+=1
+        print(sum)

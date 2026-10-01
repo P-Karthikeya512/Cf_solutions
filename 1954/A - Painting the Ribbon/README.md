@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1954/problem/A" target="_blank" rel="noopener noreferrer">1954A — Painting the Ribbon</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1954A](https://codeforces.com/contest/1954/problem/A) |
+
+## Topics
+`constructive algorithms` `greedy` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Painting the Ribbon</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Alice and Bob have bought a ribbon consisting of $$$n$$$ parts. Now they want to paint it.</p><p>First, Alice will paint every part of the ribbon into one of $$$m$$$ colors. For each part, she can choose its color arbitrarily.</p><p>Then, Bob will choose <span class="tex-font-style-bf">at most $$$k$$$</span> parts of the ribbon and repaint them <span class="tex-font-style-bf">into the same color</span> (he chooses the affected parts and the color arbitrarily).</p><p>Bob would like all parts to have the same color. However, Alice thinks that this is too dull, so she wants to paint the ribbon in such a way that Bob cannot make all parts have the same color.</p><p>Is it possible to paint the ribbon in such a way?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases.</p><p>Each test case consists of one line containing three integers $$$n$$$, $$$m$$$ and $$$k$$$ ($$$1 \le m, k \le n \le 50$$$) — the number of parts, the number of colors and the number of parts Bob can repaint, respectively.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print <span class="tex-font-style-tt">YES</span> if Alice can paint the ribbon so that Bob cannot make all parts have the same color. Otherwise, print <span class="tex-font-style-tt">NO</span>.</p><p>You can print every letter in any register. For example, <span class="tex-font-style-tt">Yes</span>, <span class="tex-font-style-tt">yes</span>, <span class="tex-font-style-tt">yEs</span> will all be recognized as positive answer.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003064251247858444" id="id008060458083649317" class="input-output-copier">Copy</div></div><pre id="id003064251247858444"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">1 1 1</div><div class="test-example-line test-example-line-even test-example-line-2">5 1 1</div><div class="test-example-line test-example-line-odd test-example-line-3">5 2 1</div><div class="test-example-line test-example-line-even test-example-line-4">5 2 2</div><div class="test-example-line test-example-line-odd test-example-line-5">5 5 3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002605685031862378" id="id006537255307850501" class="input-output-copier">Copy</div></div><pre id="id002605685031862378">NO
+NO
+YES
+NO
+YES
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, a ribbon consists of $$$1$$$ part. So all its parts will always have the same color.</p><p>In the second test case, there is only $$$1$$$ color.</p><p>In the third test case, Alice can paint the ribbon as follows: $$$[1, 2, 1, 2, 1]$$$. It's impossible to change the color of at most $$$1$$$ part so that all parts have the same color.</p><p>In the fourth test case, no matter how Alice paints the ribbon, Bob will always be able to repaint $$$2$$$ parts so that all parts have the same color.</p><p>In the fifth test case, Alice can paint the ribbon as follows: $$$[1, 2, 3, 4, 5]$$$. It's impossible to change the color of at most $$$3$$$ parts so that all parts have the same color.</p></div>

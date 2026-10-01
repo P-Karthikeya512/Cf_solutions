@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/797/problem/A" target="_blank" rel="noopener noreferrer">797A — k-Factorization</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 797A](https://codeforces.com/contest/797/problem/A) |
+
+## Topics
+`implementation` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. k-Factorization</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Given a positive integer <span class="tex-span"><i>n</i></span>, find <span class="tex-span"><i>k</i></span> integers (not necessary distinct) such that all these integers are strictly greater than <span class="tex-span">1</span>, and their product is equal to <span class="tex-span"><i>n</i></span>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains two integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>k</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 100000</span>, <span class="tex-span">1 ≤ <i>k</i> ≤ 20</span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>If it's impossible to find the representation of <span class="tex-span"><i>n</i></span> as a product of <span class="tex-span"><i>k</i></span> numbers, print <span class="tex-font-style-tt">-1</span>.</p><p>Otherwise, print <span class="tex-span"><i>k</i></span> integers in any order. Their product must be equal to <span class="tex-span"><i>n</i></span>. If there are multiple answers, print any of them.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003403547271077292" id="id005266561772789778" class="input-output-copier">Copy</div></div><pre id="id003403547271077292">100000 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008698403522037441" id="id005551469959290936" class="input-output-copier">Copy</div></div><pre id="id008698403522037441">2 50000 <br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0004171972499902121" id="id0001784508216601688" class="input-output-copier">Copy</div></div><pre id="id0004171972499902121">100000 20<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005469824729414188" id="id009905366459913375" class="input-output-copier">Copy</div></div><pre id="id005469824729414188">-1<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008943154885775974" id="id005209173757476987" class="input-output-copier">Copy</div></div><pre id="id008943154885775974">1024 5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005626128064375197" id="id002511716931265884" class="input-output-copier">Copy</div></div><pre id="id005626128064375197">2 64 2 2 2 <br></pre></div></div></div>

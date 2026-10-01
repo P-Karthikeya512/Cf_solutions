@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/1806/problem/B" target="_blank" rel="noopener noreferrer">1806B — Mex Master</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1806B](https://codeforces.com/contest/1806/problem/B) |
+
+## Topics
+`constructive algorithms` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Mex Master</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>1024 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given an array $$$a$$$ of length $$$n$$$. The <span class="tex-font-style-it">score</span> of $$$a$$$ is the MEX$$$^{\dagger}$$$ of $$$[a_1+a_2,a_2+a_3,\ldots,a_{n-1}+a_n]$$$. Find the minimum score of $$$a$$$ if you are allowed to rearrange elements of $$$a$$$ in any order. Note that you are <span class="tex-font-style-bf">not required</span> to construct the array $$$a$$$ that achieves the minimum score.</p><p>$$$^{\dagger}$$$ The MEX (minimum excluded) of an array is the smallest non-negative integer that does not belong to the array. For instance:</p><ul> <li> The MEX of $$$[2,2,1]$$$ is $$$0$$$, because $$$0$$$ does not belong to the array. </li><li> The MEX of $$$[3,1,0,1]$$$ is $$$2$$$, because $$$0$$$ and $$$1$$$ belong to the array, but $$$2$$$ does not. </li><li> The MEX of $$$[0,3,1,2]$$$ is $$$4$$$ because $$$0$$$, $$$1$$$, $$$2$$$, and $$$3$$$ belong to the array, but $$$4$$$ does not. </li></ul></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1\le t\le 10^4$$$) — the number of test cases. The description of test cases follows.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$2\le n\le 2\cdot10^5$$$).</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \le a_i \le 2\cdot 10^5$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2\cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the minimum score of $$$a$$$ after rearranging the elements of $$$a$$$ in any order.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id001214066177913411" id="id00711369416154011" class="input-output-copier">Copy</div></div><pre id="id001214066177913411"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-odd test-example-line-1">0 0</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">0 0 1</div><div class="test-example-line test-example-line-odd test-example-line-3">8</div><div class="test-example-line test-example-line-odd test-example-line-3">1 0 0 0 2 0 3 0</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001128142430274176" id="id005727878856185991" class="input-output-copier">Copy</div></div><pre id="id001128142430274176">1
+0
+1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, it is optimal to rearrange $$$a$$$ as $$$[0,0]$$$, the score of this array is the MEX of $$$[0+0]=[0]$$$, which is $$$1$$$.</p><p>In the second test case, it is optimal to rearrange $$$a$$$ as $$$[0,1,0]$$$, the score of this array is the MEX of $$$[0+1,1+0]=[1,1]$$$, which is $$$0$$$.</p></div>
